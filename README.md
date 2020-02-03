@@ -8,7 +8,10 @@
 5) spark-submit --master spark://master:7077 /tmp/data/Interview.py
 
 
+
+
 In this code questions 1 to 4a are answered. 
+
 1) Line 19-24 are answering Question 1, removing the duplicated values.
 2) Line 26 to 104 answer Question 2, finding the nearest POI to each data sample by first calculating the distance from each data sample to each POI, finding the minimum distance, and assigning the nearest POI to each data sample.
 3) Line 105-176 answer both parts of question 3. First finding the mean and standard deviation for each POI data group, then calculating the density of each area as well as plotting their distribution with the circle showing the area for each POI. 
